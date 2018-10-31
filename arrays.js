@@ -15,6 +15,7 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, sweets) {
 function addElementToEndOfArray(chocolateBars, sweets) {
   return [...chocolateBars, sweets];
 }
+//had to ask to figure out how to position the item
 
 function destructivelyAddElementToEndOfArray(chocolateBars, sweets){
   chocolateBars.push(sweets);
